@@ -1,0 +1,45 @@
+2025-05-15 16:41:17,200 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: job_definition.json
+2025-05-15 16:41:17,201 - src.utils.job_processor - ERROR - Job definition file not found: job_definition.json
+2025-05-15 16:47:25,012 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: ./job_definition.json
+2025-05-15 16:47:25,014 - src.utils.job_processor - ERROR - Job definition file not found: ./job_definition.json
+2025-05-15 16:47:40,404 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: ./job_definition.json
+2025-05-15 16:47:40,408 - src.utils.job_processor - ERROR - Job definition file not found: ./job_definition.json
+2025-05-15 16:48:00,937 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: ../job_definition.json
+2025-05-15 16:48:00,938 - src.utils.job_processor - ERROR - Job definition file not found: ../job_definition.json
+2025-05-15 16:48:16,644 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: .\job_definition.json
+2025-05-15 16:48:16,645 - src.utils.job_processor - ERROR - Job definition file not found: .\job_definition.json
+2025-05-15 16:49:26,453 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: job_definition.json
+2025-05-15 16:49:26,455 - src.utils.job_processor - INFO - Starting to process 2 transformations
+2025-05-15 16:49:26,456 - src.utils.job_processor - INFO - Processing unzip parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo1.zip, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 16:49:26,467 - src.utils.job_processor - INFO - Successfully processed unzip parser
+2025-05-15 16:49:26,467 - src.utils.job_processor - INFO - Completed transformation 1/2
+2025-05-15 16:49:26,468 - src.utils.job_processor - INFO - Processing xml_to_csv parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 16:49:26,473 - src.utils.job_processor - INFO - Successfully processed xml_to_csv parser
+2025-05-15 16:49:26,473 - src.utils.job_processor - INFO - Completed transformation 2/2
+2025-05-15 16:49:26,475 - src.utils.job_processor - INFO - Finished processing all transformations
+2025-05-15 16:50:40,993 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: job_definition.json
+2025-05-15 16:50:40,998 - src.utils.job_processor - INFO - Starting to process 2 transformations
+2025-05-15 16:50:40,998 - src.utils.job_processor - WARNING - Skipping unknown parser type: unzipp. Available parsers: unzip, xml_to_csv
+2025-05-15 16:50:40,999 - src.utils.job_processor - INFO - Completed transformation 1/2
+2025-05-15 16:50:41,000 - src.utils.job_processor - INFO - Processing xml_to_csv parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 16:50:41,004 - src.utils.job_processor - INFO - Successfully processed xml_to_csv parser
+2025-05-15 16:50:41,006 - src.utils.job_processor - INFO - Completed transformation 2/2
+2025-05-15 16:50:41,006 - src.utils.job_processor - INFO - Finished processing all transformations
+2025-05-15 17:15:44,237 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: job_definition.json
+2025-05-15 17:15:44,239 - src.utils.job_processor - INFO - Starting to process 2 transformations
+2025-05-15 17:15:44,239 - src.utils.job_processor - INFO - Processing unzip parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo1.zip, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 17:15:44,245 - src.utils.job_processor - INFO - Successfully processed unzip parser
+2025-05-15 17:15:44,245 - src.utils.job_processor - INFO - Completed transformation 1/2
+2025-05-15 17:15:44,245 - src.utils.job_processor - INFO - Processing xml_to_csv parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 17:15:44,248 - src.utils.job_processor - INFO - Successfully processed xml_to_csv parser
+2025-05-15 17:15:44,248 - src.utils.job_processor - INFO - Completed transformation 2/2
+2025-05-15 17:15:44,248 - src.utils.job_processor - INFO - Finished processing all transformations
+2025-05-15 18:07:05,392 - src.utils.job_processor - INFO - Initializing JobProcessor with job file: job_definition.json
+2025-05-15 18:07:05,393 - src.utils.job_processor - INFO - Starting to process 2 transformations
+2025-05-15 18:07:05,393 - src.utils.job_processor - INFO - Processing unzip parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo1.zip, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 18:07:05,398 - src.utils.job_processor - INFO - Successfully processed unzip parser
+2025-05-15 18:07:05,398 - src.utils.job_processor - INFO - Completed transformation 1/2
+2025-05-15 18:07:05,398 - src.utils.job_processor - INFO - Processing xml_to_csv parser - Origin: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml, Destiny: ./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/
+2025-05-15 18:07:05,400 - src.utils.job_processor - INFO - Successfully processed xml_to_csv parser
+2025-05-15 18:07:05,400 - src.utils.job_processor - INFO - Completed transformation 2/2
+2025-05-15 18:07:05,401 - src.utils.job_processor - INFO - Finished processing all transformations

@@ -2,8 +2,8 @@
   "transformations": [
     {
       "object": {
-        "origin": "s3://alejo-parsers/workspace1/sources/rutafuente1/miarchivo1.zip",
-        "destiny": "s3://alejo-parsers/workspace1/sources/rutafuente2/",
+        "origin": "./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo1.zip",
+        "destiny": "./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/",
         "parser": "unzip",
         "classname": "ZipFileParser"
       },
@@ -14,8 +14,8 @@
     },
     {
       "object": {
-        "origin": "s3://alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml",
-        "destiny": "s3://alejo-parsers/workspace1/sources/rutafuente2/",
+        "origin": "./s3_simulation/alejo-parsers/workspace1/sources/rutafuente1/miarchivo2.xml",
+        "destiny": "./s3_simulation/alejo-parsers/workspace1/sources/rutafuente2/",
         "parser": "xml_to_csv",
         "classname": "XmlToCsvParser"
       },

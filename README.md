@@ -58,10 +58,34 @@ python-parser-project/
 }
 ```
 
-2. Run the application:
-```bash
-python src/main.py
-```
+## How to run
+
+This project uses [uv](https://github.com/astral-sh/uv), a fast and modern Python package manager.
+
+Follow these steps to run the project:
+
+1. **Clone the repository**
+    ```sh
+    git clone https://github.com/sebas6612/prueba_parsers.git
+    cd prueba_parsers
+    ```
+
+2. **Install uv**
+    #### On macOS and Linux.
+    ```sh
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
+    #### On Windows.
+    ```sh
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
+
+3. **Run the main script**
+    ```sh
+    uv run main.py
+    ```
+
+Make sure to configure your `job_definition.json` before running the script.
 
 ## Adding New Parsers
 

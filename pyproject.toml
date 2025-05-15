@@ -1,7 +1,10 @@
 [project]
 name = "prueba"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is a test package"
+authors = [
+    { name = "Sebastian", email = "sebas6612@gmail.com"}
+    ]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
